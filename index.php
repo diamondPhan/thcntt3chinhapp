@@ -13,9 +13,9 @@
     }
     function getData()
     {
-        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/CloudPhpEX/api.php/ktrptbac2/a/b/c";
-        document.getElementById("txt_apijsonyear").innerHTML = window.location.host +"/CloudPhpEX/api.php/ktrnamnhuan/year";
-    }
+        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/thcntt3chinhapp/api.php/ktrptbac2/a/b/c";
+        document.getElementById("txt_apijsonyear").innerHTML = window.location.host +"/thcntt3chinhapp/api.php/ktrnamnhuan/year";
+    }thcntt3chinhapp
 </script>
 
 <!DOCTYPE html>
