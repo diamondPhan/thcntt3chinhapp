@@ -4,17 +4,17 @@
         a = document.getElementById("inputa").value;
         b = document.getElementById("inputb").value;
         c = document.getElementById("inputc").value;
-        window.open("api.php/ptbac2/"+a+"/"+b+"/"+c);
+        window.open("api.php/ktrptbac2/"+a+"/"+b+"/"+c);
     }
     function getLinkJSONyear() {
         var a;
         a = document.getElementById("inputyear").value;
-        window.open("api.php/namnhuan/"+a);
+        window.open("api.php/ktrnamnhuan/"+a);
     }
     function getData()
     {
-        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/THCNTT3/api.php/ptbac2/a/b/c";
-        document.getElementById("txt_apijsonyear").innerHTML = window.location.host +"/THCNTT3/api.php/namnhuan/year";
+        document.getElementById("txt_apijsonpt2").innerHTML = window.location.host +"/THCNTT3/api.php/ktrptbac2/a/b/c";
+        document.getElementById("txt_apijsonyear").innerHTML = window.location.host +"/THCNTT3/api.php/ktrnamnhuan/year";
     }
 </script>
 
