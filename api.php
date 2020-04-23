@@ -9,13 +9,13 @@ class api extends restful_api {
         parent::__construct();
     }
 
-    function ktrnamnhuan(){
+    function checkyear(){
         if ($this->method == 'GET'){
             $this->response(200, $this->getyear($this->params));
         }
     }
 
-    function ktrptbac2()
+    function checkptbac2()
     {
         if($this->method == 'GET')
         {
